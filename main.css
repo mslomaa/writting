@@ -17,3 +17,13 @@ div {
     letter-spacing: 1px;
 
 }
+
+.cursor {
+    opacity: 0;
+    transition: .4;
+
+}
+
+.cursor.active {
+    opacity: 1;
+}
